@@ -196,12 +196,12 @@ html{
     font-size: 35px;
 }
 
-.forms{
+.form{
     max-width: 62%;
     margin: 12px auto;
 }
 
-.forms-input{
+.form-input{
     width: 100%;
     padding: 5px 2px;
     font-size: 18px;
