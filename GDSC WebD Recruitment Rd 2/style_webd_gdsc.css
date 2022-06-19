@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+ .checkout {
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 240px;
+    top: 64.06px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+
+    color: #000000;
+
+    transform: rotate(-0.02deg);
+    }
+
+
+.form-input {
+    width: 100%;
+    padding: 5px 2px;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin: 14px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact{ 
+
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 465px;
+
+    left: 240px;
+    top: 218px;
+    
+    
+    background-color: white;
+    height: 120vh;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.Rectangle36 {
+
+
+    position: absolute;
+    width: 383px;
+    height: 900px;
+    left: 817px;
+    top: 170px;
+
+    
+
+    background: #F2F2F2;
+    border-radius: 12px;
+}
+
+.btn{
+    position: absolute;
+    width: 166px;
+    height: 54px;
+    left: 539px;
+    top: 886px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    background: #F2994A;
+    border-radius: 12px;
+}
+
+.text-center{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+
+.form{
+    max-width: 62%;
+    margin: 12px auto;
+}
+
+.text-small{
+    font-size: 20px;
+}
+
+.text-normal{
+    font-size: 30px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 13px;
+}
+
+.sectionDown{
+    flex-direction:column ;
+}
+
+.paras{
+    padding: 0 65px;
+}
+
+.secTag{
+    padding: 16px 0;
+}
+
+.secSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbNail img{
+    
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+    
+    width: 15px;
+    height: 20px;
+    
+
+    
+    transform: rotate(-0.02deg);
+
+}
+
+.line{
+    
+    background-color: black;
+    height: 2px;
+    margin: 5px 3px;
+}
+
+.background {
+    background: rgba(0,0,0,0)url(https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BsYXNoJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+}
+
+.firstSection{
+    height: 200vh;
+}
